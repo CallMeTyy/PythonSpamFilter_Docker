@@ -14,7 +14,7 @@ For this setup a custom image is built instead of using a pre-built one. This al
 4. Open the command prompt and change the directory to where the repository was cloned to (e.g. `cd C:/git/PythonSpamFilter_Docker`)
 5. Run the command `docker build -t pyspam .` and wait for it to finish
 6. Run the command `docker run -p 80:80 pyspam`
-7. Go to a webbrowser and go to the site [localhost](https://127.0.0.1)
+7. Go to a webbrowser and go to your local host [127.0.0.1](https://127.0.0.1)
 8. (Optional) Train the model using the data placed into TrainingData or upload fresh data and Train the algorithm using that data.
 9. Upload evaluation data using Choose Files and either run a pre-trained evaluation or evaluate using the trained model.
 
@@ -25,4 +25,4 @@ For smaller amounts of custom data the web interface can be used to upload and t
 1. Open Docker Desktop
 2. Open the command prompt and run `docker pull callmety/pythonspamfilter:latest`
 3. Run the docker with `docker run -p 80:80 callmety/pythonspamfilter:latest`
-4. Go to your [localhost](https://127.0.0.1)
+4. Go to your local host [127.0.0.1](https://127.0.0.1)
